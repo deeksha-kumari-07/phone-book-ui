@@ -1,10 +1,11 @@
 import './App.css'
+import Header from './header/header'
 
 function App() {
   return (
     <>
       <div className="main-container">
-        Main page where every component will be added.
+        <Header/>
       </div>
     </>
   )
